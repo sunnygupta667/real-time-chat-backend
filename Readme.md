@@ -39,7 +39,7 @@ A production-ready, scalable real-time chat backend built with Node.js, Socket.I
 - 🌐 CORS enabled for cross-origin requests
 
 
-# Real-Time Chat Application – Frontend (Text Client)
+
 
 ## Frontend – Text Client
 
@@ -75,16 +75,6 @@ You will see messages appear instantly on the chat UI.
   - Other socket-related operations
 - 🖥️ Simple chat UI for testing and debugging
 
----
-
-## Screenshots
-
-_Add screenshots below to showcase the chat UI and real-time communication._
-
-![Chat UI Screenshot](./screenshots/chat-ui.png)
-![Event Log Screenshot](./screenshots/event-log.png)
-
----
 
 ## Notes
 
