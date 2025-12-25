@@ -38,7 +38,7 @@ A production-ready, scalable real-time chat backend built with Node.js, Socket.I
 - 🔄 Automatic reconnection handling
 - 🌐 CORS enabled for cross-origin requests
 
-
+---
 
 
 ## Frontend – Text Client
