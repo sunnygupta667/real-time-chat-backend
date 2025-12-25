@@ -38,7 +38,66 @@ A production-ready, scalable real-time chat backend built with Node.js, Socket.I
 - 🔄 Automatic reconnection handling
 - 🌐 CORS enabled for cross-origin requests
 
+
+# Real-Time Chat Application – Frontend (Text Client)
+
+## Frontend – Text Client
+
+✅ **Frontend (`text-client.html`)**  
+A simple HTML-based frontend is included for testing the real-time chat backend. This client helps verify real-time messaging, socket events, and user interactions without using a full frontend framework.
+
 ---
+
+## How to Test
+
+1. Start the **backend server**.
+2. Open `text-client.html` in **two separate browser tabs**.
+3. In **Tab 1**:
+   - Enter **User 1 JWT token**
+   - Enter **Receiver ID** (User 2)
+4. In **Tab 2**:
+   - Enter **User 2 JWT token**
+   - Enter **Receiver ID** (User 1)
+5. Start sending messages between the two tabs.
+
+You will see messages appear instantly on the chat UI.
+
+---
+
+## Implemented Features
+
+- 💬 Real-time send and receive messages
+- 🔊 Message notification sounds
+- ✍️ Typing indicators (start typing / stop typing)
+- 📜 Event log console displaying:
+  - Message sent
+  - Message received
+  - Other socket-related operations
+- 🖥️ Simple chat UI for testing and debugging
+
+---
+
+## Screenshots
+
+_Add screenshots below to showcase the chat UI and real-time communication._
+
+![Chat UI Screenshot](./screenshots/chat-ui.png)
+![Event Log Screenshot](./screenshots/event-log.png)
+
+---
+
+## Notes
+
+- This frontend is meant **only for testing and debugging**.
+- Make sure valid **JWT tokens** and **user IDs** are used.
+- Open the file in multiple tabs to simulate multiple users.
+
+---
+
+
+
+---
+
 
 ## 🛠️ Tech Stack
 
@@ -156,7 +215,7 @@ The server will start on `http://localhost:5000`
 | `MONGODB_URI` | MongoDB connection string | - | Yes |
 | `JWT_SECRET` | Secret key for JWT signing | - | Yes |
 | `JWT_EXPIRES_IN` | Token expiration time | 7d | No |
-| `CORS_ORIGIN` | Allowed CORS origin | * | No |
+
 
 ---
 
